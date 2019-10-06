@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+h1{
+    background-color: #333;
+    color:#fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.create-form{
+    margin:  20px 200px 20px 200px;
+    border:1px solid #ccc;
+    background-color: #fcfafa;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#txtTodo {
+    padding:5px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+ul li {
+    font-weight: bold;
+    background-color: #fffffff1;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+
+}
+
+ul li:hover{
+    border: 1px solid #999;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
